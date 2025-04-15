@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and database
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Coverage and testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# mypy, pylint, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# FastAPI-related
+instance/
+*.db
+
+# Docker
+*.pid
+*.tar
+*.bak
+*.old
+*.tmp
+.qodo
